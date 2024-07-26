@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.sidebar {
+  flex-shrink: 0;
+}
+
+.main-content {
+  flex-grow: 1;
+}
